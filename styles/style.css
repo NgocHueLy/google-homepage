@@ -10,7 +10,6 @@ body{
     flex-direction: column;
     height: 100%;
 
-
 }
 #search-bar{
     width: 100%;
@@ -19,11 +18,17 @@ body{
     border-width: 0.5px;
     border-color: #b1b1b1;
     margin-top: 30px;
+    background-image: url(https://toppng.com/uploads/preview/free-icons-png-instagram-search-icon-white-11562954322qzcobg6iwo.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
 }
 #search-bar:hover{
     box-shadow: 1px 2px 5px rgb(212, 212, 212);
 
 }
+
 .search-submit{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -38,8 +43,8 @@ body{
 }
 .search-submit input:hover{
     border-width: 1px;
-    border-color: rgb(197, 197, 197);
-    border-radius: 5px;
+    border-color: rgb(161, 161, 161);
+    
 }
 #nav-bar{
     position: fixed;

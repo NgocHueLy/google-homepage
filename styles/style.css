@@ -76,6 +76,7 @@ nav button{
     left: 0;
     bottom: 0;
     background-color: rgb(224, 224, 224);
+    height: 55px;
     
 }
 #footer ul{
@@ -94,13 +95,13 @@ nav button{
     bottom: 55px;
     display: flex;
     justify-content: flex-start;
-    align-item: center;
+    align-items: center;
     background-color: rgb(224, 224, 224);
     margin-bottom: 0;
-    padding: 5px 10px 10px 20px;;
+    padding: 10px 10px 10px 20px;;
     color: rgb(102, 101, 101);
     font-size: 14px;
-   
+    border-bottom: 1px solid grey;
 }
 #footer-all{
     display: flex;
@@ -110,6 +111,9 @@ li a{
     text-decoration: none;
     color: rgb(102, 101, 101);
     font-size: 14px;
+}
+li a:hover{
+    text-decoration-line: underline;
 }
 #language a{
     text-decoration: none;

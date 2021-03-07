@@ -29,9 +29,8 @@ body{
     align-self: center;
     justify-self: flex-end;  
 }
-#micro-icon:hover{
-    
-}
+
+
 #search-bar{
     width: 100%;
     height: 40px;
